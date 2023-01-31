@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* typography and icons */
+
+h1{
+    color: #1DA1F2;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    width: 290px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tweet-input-area {
+    display: solid;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* doge column */
+
+.doge-input-area {
+    text-align: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.doge-logo {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 25px
+}
+
+.doge-balance-text{
+    font-size: 15px;
+    color: #555;
+    width: 200px;
+}
+
+#doge-balance{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #555;
+    font-weight: bold;
+}
+
+.doge-modal{
+    display: none;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 420px;
+    border-radius: 10px;
+    border: 10px solid  #1DA1F2;
+    background-color: whitesmoke;
+    color: #1DA1F2;
+}
+
+#buynance-text{
+    color:  #283618;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.modal-close-btn{
+    
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #555;
+    text-align: right;
+}
+
+h2{
+    
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.modal-text{
+    margin: 30px 20px;
+}
+
+.doge-modal-inner{
+    width: 410px;
+    margin: 0 auto 20 auto;
+}
+
+#consent-form{
+    padding: 0 20px;
+    
+}
+
+#modal-btn{
+    margin-top: 25px;
+    font-style: italic;
+    background-color:#ffc300;
+    color: #283618;
+}
+
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 15 auto;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15 auto;
+    
+    
+    
+}
+
+/* tweet */
+
+.tweet{
+    
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    width: 207px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
